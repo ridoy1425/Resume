@@ -1,0 +1,134 @@
+/*font linkup*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Oswald:300,400,600');
+/*common css*/
+*{
+padding: 0;
+margin: 0;
+outline: 0;
+}
+ol,ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+a{
+text-decoration: none;
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,.navbar{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: 'Oswald', sans-serif;
+font-family: 'Open Sans', sans-serif;
+color: black;
+}
+/*header part*/
+.r_part{
+background-color: #E5ECEB;
+}
+.header .pro_pic img{
+
+height: 300px;
+width: 350px;
+}
+.header .header_text h4{
+margin-top: 30px;
+letter-spacing: 0.3em;
+color: #FFFF;
+/*margin-left: 5px;*/
+text-align: center;
+}
+.header .header_text h5{
+margin: 5px 30px;
+letter-spacing: 0.2em;
+
+color: black;
+}
+.underline{
+background-color: #8042CA ;
+width: 330px;
+height: 5px;
+margin-bottom: 25px;
+}
+/*common css*/
+.cmn_title{
+background-color: #9990B8 ;
+margin-top: 20px;
+}
+.cmn_title h4{
+padding: 10px 30px;
+
+}
+/*experience part*/
+.exp_head{
+margin: 30px;
+
+}
+.exp_head .exp_txt{
+	margin-bottom: 10px;
+}
+/*contact part*/
+/*.con_title{
+	margin-left: 30px;
+	color:#FFFFFF;
+}*/
+
+.con_icon{
+margin: 20px 30px;
+}
+.contact .con_icon ul li{
+margin-top: 10px;
+}
+.contact .con_icon ul li a{
+	color: black;
+	display: flex;
+text-decoration: none;
+}
+.contact .con_icon ul li a p:hover{
+	color: white;
+}
+.contact .con_icon ul li a i{
+height: 35px;
+width: 35px;
+background: blue;
+border-radius: 50%;
+display: block;
+line-height: 35px;
+color: #fff;
+margin: 10px;
+
+}
+.contact .con_icon ul li span{
+display: block;
+padding-top: 5px;
+}
+.contact .con_icon ul li a .s_media{
+	margin-top:16px;
+}
+/*left part*/
+.l_part{
+background-color:#573EAB;
+margin-top: 20px;
+}
+/*skill part;*/
+.skill{
+padding-bottom: 17px;
+}
+.skill .skill_title h5{
+	color: #FFFFFF;
+	margin-left: 30px;
+}
+.skill .skill_bar{
+margin: 20px 30px;
+}
+.l_part .skill .skill_bar .progress{
+height: 25px;
+margin-bottom:20px;
+color:black;
+}
+.l_part .skill .skill_bar .progress .progress-bar{
+color: black;
+}
